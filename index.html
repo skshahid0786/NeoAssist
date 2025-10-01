@@ -197,7 +197,16 @@
 
 <script src="script.js"></script>
 
+<!-- Register service worker -->
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/NeoAssist/service-worker.js");
+}
+</script>
 
+<!-- Link manifest -->
+<link rel="manifest" href="/NeoAssist/manifest.json">
+    
   
   
 </body>
