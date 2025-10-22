@@ -6,9 +6,7 @@ const textInput = document.getElementById('textInput');
 const sendBtn = document.getElementById('sendBtn');
 const micBtn = document.getElementById('micBtn');
 const clearBtn = document.getElementById('clearBtn');
-document.getElementById('petBtn').addEventListener('click', () => {
-  window.open('https://skshahid0786.github.io/Aiko---Your-Virtual-Pet/', '_blank');
-});
+
 
 
 function escapeHtml(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
